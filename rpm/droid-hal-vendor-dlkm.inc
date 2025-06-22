@@ -17,7 +17,7 @@ License:    GPLv2
 BuildRequires:  droid-hal-%{device}-kernel
 
 Requires: droid-hal-%{device}-img-boot = %{mainver}-%{relver}
-Requires: droid-hal-%{device}-img-vendor_boot = %{mainver}-%{relver}
+Requires: droid-hal-%{device}-vendor_boot = %{mainver}-%{relver}
 
 %description
 %{summary}
